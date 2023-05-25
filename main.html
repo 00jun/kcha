@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+        <link href="css/style.css" rel="stylesheet">
+        <title>와디즈 컬러</title>
+        <script src="js/main.js"></script>
+        <script src="js/canvas.js"></script>
+    </head>
+    <body>
+        <div class="wrap">
+            <div id="input-form">
+            <img Id="logo" src="images/logo.png">
+            <form name="frm">
+                    <div class="exp">색을 통한 치유, 컬러테라피 나의 인생 컬러는?</div>
+                    <div class="exp">성함</div>
+                    <div class="exp-input"><input type="text" name="username" placeholder="성함을 입력해주세요." min="1900-01-01" max="2100-01-01" value=""/></div>
+                    <div class="exp">생년월일</div>
+                    <div class="exp-input"><input type="date" name="jumin" value=""/></div>
+                    <div id="button"><button id="button" onclick="process();">나의 인생 컬러 확인하기</button></div>
+            </form>
+            <canvas id="profile" width="800" height="1260" style="width : 400px; height : 630px"></canvas>
+            </div>
+        
+            <div id="footer">
+                <p>Copyright © 2019 HEILENDE BAUM CO.LTD All rights resrtved.</p>
+                <p>상기 저작권에 대한 사항은 (주) 하이렌데 바움에 있으며 사전 승인 없이 무단전재 및 재배포 경우,관령 법령 및 규정에 의거 제재를 받을 수 있습니다.</p>
+                <p>특허 등록 번호 : 10-2022-0050793, 10-2022-0101163</p>
+            </div>
+        </div>
+    </body>
+</html>
