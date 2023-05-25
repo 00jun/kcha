@@ -56,10 +56,10 @@ function process() {
         cnThree = 0;
         cnFour = sec;
     }
-    tsc = "images/"+cnOne+".png";
-    sac = "images/"+cnTwo+".png";
-    sact = "images/"+cnThree+".png";
-    isc = "images/"+cnFour+".png";
+    tsc = "./images/"+cnOne+".png";
+    sac = "./images/"+cnTwo+".png";
+    sact = "./images/"+cnThree+".png";
+    isc = "./images/"+cnFour+".png";
 
     make();
 }
