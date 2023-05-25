@@ -15,8 +15,8 @@ function draw() {
     var ctx = canvas.getContext("2d");
 
     var sources = {
-      image1: "images/background.png",
-      image2: "images/logo.png",
+      image1: "./images/background.png",
+      image2: "./images/logo.png",
       image3: tsc,
       image4: sac,
       image5: sact,
