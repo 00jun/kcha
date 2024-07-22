@@ -40,9 +40,12 @@ function process() {
     
     var fic = conum;
     fic = fic.toString();
-
-    var sec = parseInt(fic[0]) + parseInt(fic[1]);
-    sec = sec.toString();
+    if (fic.length == 1) {
+        var sec = parseInt(fic[0]);
+    } else {
+        var sec = parseInt(fic[0]) + parseInt(fic[1]);
+        sec = sec.toString();
+    }
 
     if (sec.length == 2) {
         var thc = parseInt(sec[0]) + parseInt(sec[1]);
@@ -56,6 +59,7 @@ function process() {
         cnThree = 0;
         cnFour = sec;
     }
+
     tsc = "images/"+cnOne+".png";
     sac = "images/"+cnTwo+".png";
     sact = "images/"+cnThree+".png";
